@@ -30,7 +30,7 @@ const int OUTPUT_PIN = 2;
 const int INDICATOR_PIN = 4;
 
 // Timing
-const unsigned long POLL_INTERVAL = 5 * 60 * 1000; // 5 minutes in milliseconds
+const unsigned long POLL_INTERVAL = 1 * 60 * 1000; // 5 minutes in milliseconds
 const unsigned long DATA_FRESHNESS_THRESHOLD = 15 * 60; // 15 minutes in seconds
 unsigned long lastPollTime = 0;
 
